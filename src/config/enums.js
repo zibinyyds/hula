@@ -1,0 +1,60 @@
+export default {
+  chainFullName: "公链全称",
+  chainShortName: "公链缩写符号",
+  symbol: "公链原生代币",
+
+  circulatingSupplyProportion: "流通比例",
+  transactions: "交笔总数",
+
+  validAddressCount: "持公链本币地址数量",
+  newAddressCount24h: "持币地址数近24小时新增/减少量",
+  totalAddresses: "该链所有的地址数",
+  newTotalAddresses24h: "总地址数近24小时新增/减少量",
+  contractAddresses: "该链所有的合约地址数",
+  newContractAddresses24h: "合约地址数近24小时新增/减少量",
+  externalAddresses: "普通地址数",
+  newExternalAddresses24h: "普通地址数24小时新增/减少量",
+  activeAddresses: "活跃地址数",
+  newActiveAddresses: "活跃地址数24小时新增/减少量",
+
+  firstExchangeHistoricalTime: "第一次交易时间",
+  firstBlockTime: "第一次出块时间",
+  firstBlockHeight: "第一个区块高度",
+  avgBlockInterval: "平均出块时间",
+  avgBlockSize24h: "平均区块大小(24h)",
+  avgBlockSize24hPercent: "平均区块大小涨跌幅",
+  mediaBlockSize: "区块大小中位数（近一周）",
+  halveTime: "减半时间",
+
+  bestTransactionFee: "最佳交易手续费",
+  recommendedGasPrice: "建议Gas费，单位。ETH单位：Gwei",
+
+  hashRate: "近一周全网算力",
+  hashRateChange24h: "全网算力 24 小时涨跌幅",
+
+  rank: "公链市值排名",
+  mineable: "是否支持挖矿",
+  algorithm: "核心算法",
+  consensus: "共识算法",
+  diffEstimation: "下次挖矿难度预测，BTC的单位：T",
+  currentDiff: "当前全网挖矿难度",
+  diffAdjustTime: "下次挖矿难度调整时间",
+  circulatingSupply: "流通量",
+  totalSupply: "最大供应量",
+  tps: "链上每秒交易处理数量。近一周平均值",
+  lastHeight: "最新区块高度",
+  lastBlockTime: "上一个区块时间",
+  issueDate: "发行日期",
+
+  avgMineReward24h: "24 小时平均区块奖励",
+  minerIncomePerUnit: "每单位算力收益",
+  minerIncomePerUnitCoin: "每单位算力收益币数",
+
+  pendingTransactionCount: "未确认交易数",
+  transactionValue24h: "24 小时的链上交易量",
+  totalTransactionCount: "链上交易总数",
+  tranRate: "50个块的平均TPS",
+  avgTransactionCount24h: "24 小时平均交易数量",
+  avgTransactionCount24hPercent: "24 小时平均交易数量涨幅",
+  pendingTransactionSize: "未确认交易的大小"
+};
