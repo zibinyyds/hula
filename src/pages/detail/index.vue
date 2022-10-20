@@ -30,11 +30,11 @@ const siderEnums = {
 const chainShortName = useRouter().params.chainShortName;
 
 const getList = (e) => {
+
   request(`/blockchain/${siderEnums[e.title]}`, {
     chainShortName
   }).then(res => {
     list.value = res.data[0]
-    console.log(res.data[0]);
   })
 }
 
@@ -42,7 +42,7 @@ const value = ref(0);
 const list = ref([]);
 
 useDidShow(() => {
-  getList(address)
+  getList({ title: '持币地址基础信息' })
 })
 
 </script>
