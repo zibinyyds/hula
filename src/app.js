@@ -6,6 +6,8 @@ import {
   Icon,
   Cell,
   CellGroup,
+  Collapse,
+  CollapseItem
 } from "@nutui/nutui-taro";
 import { createPinia } from "pinia";
 import { useAppStore } from "./store";
@@ -28,5 +30,7 @@ app.use(Cell);
 app.use(Tabs);
 app.use(TabPane);
 app.use(CellGroup);
+app.use(Collapse);
+app.use(CollapseItem);
 
 export default app;

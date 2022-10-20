@@ -36,11 +36,9 @@ usePullDownRefresh(() => {
   getList().then(() => {
     Taro.stopPullDownRefresh();
   })
-  console.log('onPullDownRefresh')
 })
 
 const appStore = useAppStore();
-console.log(appStore.top);
 
 const style = reactive({
   height: appStore.top + 'px',
@@ -55,8 +53,7 @@ const state = reactive({
 });
 
 const goDetail = (chainShortName) => {
-  console.log(chainShortName);
-  switchPage('../detail/index', { chainShortName })
+  switchPage('../detail2/index', { chainShortName })
 }
 
 const getList = async () => {
@@ -71,7 +68,6 @@ const getList = async () => {
         circulatingSupply: Number(item.circulatingSupply).toLocaleString(),
       }
     })
-    console.log(data);
     state.list = data;
   })
 }

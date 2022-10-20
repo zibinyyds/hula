@@ -7,6 +7,7 @@
     </nut-tabpane>
   </nut-tabs>
 </template>
+
 <script setup>
 import { useDidShow, useRouter } from '@tarojs/taro'
 import request from '../../api/index';
